@@ -1,0 +1,56 @@
+{
+  "implementation": "4fdf17a5db552822fe064f5ef0283de32cd1b20c8e7ac7a5531eb43fac750577",
+  "version": "v13_recent_comparable_residual_1",
+  "config": {
+    "reference_cutoff": 194,
+    "fit_months": [
+      195,
+      196
+    ],
+    "selection_month": 197,
+    "review_months": [
+      198,
+      199
+    ],
+    "iterations": 1200,
+    "depth": 6,
+    "learning_rate": 0.04,
+    "l2_leaf_reg": 35,
+    "min_data_in_leaf": 100,
+    "weights": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "policies": [
+      "Median",
+      "Uncertainty_Shrink"
+    ],
+    "maximum_change": 5000000.0,
+    "relative_change": 0.25,
+    "future_trend_cap_months": 6,
+    "target": "(Actual - V8) / (building area * 1000)"
+  },
+  "inputs": {
+    "Train": "73de901517f96453ec60c6dc51cca56168ef60446955ebfcd5b398472a331e68",
+    "Test": "19c785ae5679973c0ad859090340dfa0dc8ad4a968f0fa764c16b0fa81d17736"
+  },
+  "sources": {
+    "try_pipeline.py": "7bb2abe9c7c05e8c4cfc4ace8327f445b56671395cbd19a9291119186f93d579",
+    "study_pipeline.py": "99757595badb5aed4d0280878abcdbcd5d7cf64d324676c6c26d643cdb37b763",
+    "airport_policy.py": "4179a6bd391b10aa0500b9f0b368dfc6dd9524a2dc51e4981a1c0f5873f0e709"
+  },
+  "V8_Historical": {
+    "dev": "718473688a7f4c23378c05dcdac7881f7cd7c442ae2c32d7e46ac2f00b4d231f",
+    "check": "2abc95f77065e3e86983bb69d92c410564a24ff218957ba2ecb322091e6ba866"
+  },
+  "V11_Report": "1cbc1413c2b57a0494fbb36b13e73261596d0db4e19a9ad53049f774b0f90342",
+  "scored_V8": "0fe22eafd43db8f78a8f8ec54696afe53d7fe7aadebb41a4f67d24f626a5cebb",
+  "scored_V11": "2d47eae33420160cc333039be437115ce79c20ec584f4f951849aca701b517be",
+  "V8_Source": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/references/current_best_predictions.csv",
+  "V11_Source": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v11/submission_v11.csv",
+  "Old_Native_Models_Required": 0,
+  "Maximum_New_Models": 1,
+  "Test_Valid_Labels_Read": false
+}

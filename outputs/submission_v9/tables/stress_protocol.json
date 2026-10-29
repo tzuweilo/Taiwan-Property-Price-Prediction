@@ -1,0 +1,16 @@
+{
+  "excluded_projects": [
+    "新竹縣_竹北市_台元科技園區第九期",
+    "新竹縣_竹北市_台元科技園區第十期",
+    "臺北市_內湖區_長虹豐匯商業科技大樓",
+    "臺北市_北投區_華固樂富中心",
+    "臺北市_南港區_世界明珠"
+  ],
+  "selection": "Top project maximum building area in historical Train, never price/residual",
+  "reference": "Remaining-Train stratum median net unit price + same strictly-past parking estimate",
+  "timing": "Same-period internal project exclusion, not out-of-time confirmation; remaining Train can include later dates",
+  "not_claimed": "An independent comparison against V8",
+  "allowed_strata": [
+    "[\"Office_Retail\", \"辦公商業大樓\", \"見其他登記事項\"]"
+  ]
+}

@@ -1,0 +1,14 @@
+Feature,Categorical
+Land_Area,False
+Building_Area,False
+Parking_Area,False
+Transaction_Year,False
+Transaction_Month,False
+Month_Index,False
+City,True
+Town,True
+District,True
+Road_Section,True
+Month_Sin,False
+Month_Cos,False
+Parcel_Section,True

@@ -1,0 +1,11 @@
+Artifact,Ready,Action
+Residual model,False,At most ONE explicitly enabled recovery fit
+historical prediction inputs,True,Rebuild predictions from saved V7 models; ZERO old fits
+production prediction inputs,True,Rebuild predictions from saved V7 models; ZERO old fits
+Original Train workbook,True,Fingerprint checked before use
+Original Test workbook,True,Fingerprint checked before use
+Scored V8 CSV,False,Preserve exact existing bytes
+Scored V11 CSV,True,Preserve exact existing bytes
+outputs/submission_v8/predictions/dev.csv,True,Verify cohort before the one permitted fit
+outputs/submission_v8/predictions/check.csv,True,Verify cohort before the one permitted fit
+outputs/submission_v11/tables/validation.csv,True,Verify cohort before the one permitted fit

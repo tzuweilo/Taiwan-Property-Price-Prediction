@@ -1,0 +1,24 @@
+{
+  "submissions": {
+    "1": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v1/submission_v1.csv",
+    "2": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v2/submission_v2.csv",
+    "3": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v3/submission_v3.csv",
+    "4": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v4/submission_v4.csv",
+    "5": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v5/submission_v5.csv",
+    "6": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v6/submission_v6.csv",
+    "7": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v7/submission_v7.csv",
+    "8": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v8/submission_v8.csv"
+  },
+  "versions_evaluated": [
+    "submission_v1",
+    "submission_v2",
+    "submission_v3",
+    "submission_v4",
+    "submission_v5",
+    "submission_v6",
+    "submission_v7",
+    "submission_v8"
+  ],
+  "automatic_kaggle_upload": false,
+  "test_target_loaded": false
+}

@@ -1,0 +1,9 @@
+Feature,Categorical
+Land_Area,False
+Building_Area,False
+Parking_Area,False
+Transaction_Year,False
+Transaction_Month,False
+Month_Index,False
+Month_Sin,False
+Month_Cos,False

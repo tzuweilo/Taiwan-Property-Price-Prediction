@@ -1,0 +1,55 @@
+No,Feature,Label,Rows,Kind,Nonmissing_Rows,Missing_Pct,Unique_Values,Spearman_Rho,Pearson_R,Status
+1,編號,Transaction ID,455782,Identifier,455782,0.0,455771,,,Identity / alignment only; excluded from predictive inputs
+2,總價元,Total price,455782,Target,455782,0.0,10766,,,Target; never used as an input
+3,鄉鎮市區,Town / district,455782,Categorical,455782,0.0,260,,,Descriptive only
+4,交易標的,Transaction target,455782,Categorical,455782,0.0,4,,,Descriptive only
+5,土地位置建物門牌,Address,455782,Categorical,455782,0.0,125436,,,High cardinality; category medians are not out-of-sample evidence
+6,土地移轉總面積平方公尺,Land area,455782,Numeric,455779,0.0006582094071288467,15076,0.1296574210209983,0.08622223080196047,Descriptive only
+7,都市土地使用分區,Urban zoning,455782,Categorical,417013,8.506040168326086,6,,,Descriptive only
+8,非都市土地使用分區,Non-urban zoning,455782,Categorical,37769,91.71336296738353,8,,,Descriptive only
+9,非都市土地使用編定,Non-urban land use,455782,Categorical,37533,91.76514210741101,9,,,Descriptive only
+10,交易年月日,Transaction date,455782,Categorical,455782,0.0,4857,,,High cardinality; category medians are not out-of-sample evidence
+11,交易筆棟數,Land / building / parking counts,455782,Categorical,455782,0.0,344,,,Descriptive only
+12,移轉層次,Transferred-floor text,455782,Categorical,455611,0.03751793620634426,162,,,Descriptive only
+13,總樓層數,Total floors,455782,Numeric,455736,0.010092544242642316,41,0.27883313452800357,0.1558246657822322,Descriptive only
+14,建物型態,Building type,455782,Categorical,455782,0.0,12,,,Descriptive only
+15,主要用途,Primary use,455782,Categorical,455597,0.040589580106278875,12,,,Descriptive only
+16,主要建材,Construction material,455782,Categorical,455717,0.01426120382112501,14,,,Descriptive only
+17,建築完成年月,Completion date,455782,Categorical,0,100.0,0,,,Descriptive only
+18,建物移轉總面積平方公尺,Building area,455782,Numeric,455775,0.0015358219499673092,26132,0.5306576155884788,0.46940431624107765,Descriptive only
+19,建物現況格局-房,Rooms,455782,Numeric,455696,0.01886866967102694,17,0.2971952573978287,0.03672545194904694,Descriptive only
+20,建物現況格局-廳,Living rooms,455782,Numeric,455740,0.009214931699803855,12,0.13489345106134154,-0.04100563292636515,Descriptive only
+21,建物現況格局-衛,Bathrooms,455782,Numeric,455709,0.016016428906801935,18,0.28463629268357443,0.05997707601249716,Descriptive only
+22,建物現況格局-隔間,Partition,455782,Categorical,455782,0.0,2,,,Descriptive only
+23,有無管理組織,Management organization,455782,Categorical,455782,0.0,1,,,Descriptive only
+24,車位類別,Parking type,455782,Categorical,375847,17.53798965294812,8,,,Descriptive only
+25,車位移轉總面積平方公尺,Parking area,455782,Numeric,455782,0.0,6722,0.3034461186962213,0.585371984239044,Descriptive only
+26,備註,Remarks,455782,Categorical,43614,90.43095163916082,7447,,,High cardinality; category medians are not out-of-sample evidence
+27,建案名稱,Project name,455782,Categorical,404658,11.216765910018387,9132,,,High cardinality; category medians are not out-of-sample evidence
+28,棟及號,Block / unit text,455782,Categorical,328777,27.865295250799726,45775,,,High cardinality; category medians are not out-of-sample evidence
+29,解約情形,Cancellation status,455782,Categorical,287,99.93703130005133,171,,,Descriptive only
+30,交易年,Transaction year,455782,Numeric,455774,0.0017552250856769248,16,0.2919736268916721,0.07501004825056282,Descriptive only
+31,交易月,Transaction month,455782,Numeric,455774,0.0017552250856769248,12,-0.06255937829284493,-0.022726176803949977,Descriptive only
+32,交易時間序號,Month index,455782,Numeric,455774,0.0017552250856769248,171,0.29406151088950316,0.07391385098920536,Descriptive only
+33,交易土地筆數,Land count,455782,Numeric,455782,0.0,52,0.190517334249957,0.07877200962349472,Descriptive only
+34,交易建物筆數,Building count,455782,Numeric,455782,0.0,16,0.005328452444533724,0.37930312248289216,Descriptive only
+35,交易車位筆數,Parking count,455782,Numeric,455782,0.0,38,0.3069700602877788,0.5894995948492753,Descriptive only
+36,移轉樓層,Transferred floor,455782,Numeric,424781,6.801716610133791,61,0.22162255937914344,0.17549194322765904,Descriptive only
+37,整棟交易,Whole-building transaction,455782,Numeric,455782,0.0,2,0.05704816570397857,0.010365778136240589,Descriptive only
+38,多樓層交易,Multiple-floor transaction,455782,Numeric,455782,0.0,2,0.02964128619487636,0.0751514601496212,Descriptive only
+39,相對樓層,Relative floor,455782,Numeric,424451,6.874119644917966,499,-0.0023024539129970463,-0.0001825214834098553,Descriptive only
+40,土地使用類型,Land-use family,455782,Categorical,455782,0.0,4,,,Descriptive only
+41,縣市,City / county,455782,Categorical,455782,0.0,21,,,Descriptive only
+42,行政區,City and district,455782,Categorical,455782,0.0,269,,,Descriptive only
+43,有備註,Has remarks,455782,Numeric,455782,0.0,2,0.06770548996203218,0.04035825669011819,Descriptive only
+44,特殊關係交易,Special relationship,455782,Numeric,455782,0.0,2,0.030501284735400987,0.0137473989081262,Descriptive only
+45,含裝潢家具家電資訊,Furnishing mention,455782,Numeric,455782,0.0,2,0.030461430906077638,-0.0035660767877810713,Descriptive only
+46,毛胚屋,Unfinished interior,455782,Numeric,455782,0.0,2,0.050090229793100564,0.09198020059184057,Descriptive only
+47,雨遮不計價,Canopy excluded from price,455782,Numeric,455782,0.0,2,0.07311120947706302,0.06714150953375894,Descriptive only
+48,持分交易,Partial ownership,455782,Numeric,455782,0.0,2,0.030469561497964277,0.008236404745741768,Descriptive only
+49,含增建,Extension mention,455782,Numeric,455782,0.0,2,0.004555991163721359,0.006571595452164073,Descriptive only
+50,預售資訊,Presale mention,455782,Numeric,455782,0.0,2,0.06301670545492483,0.026989022407618104,Descriptive only
+51,道路地段,Road / land section,455782,Categorical,455782,0.0,7031,,,High cardinality; category medians are not out-of-sample evidence
+52,地址基地,Address base,455782,Categorical,455782,0.0,61605,,,High cardinality; category medians are not out-of-sample evidence
+53,建案行政區,Project and district,455782,Categorical,455782,0.0,9362,,,High cardinality; category medians are not out-of-sample evidence
+54,棟別,Block,455782,Categorical,311602,31.633544106612373,780,,,Descriptive only

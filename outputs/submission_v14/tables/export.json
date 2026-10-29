@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "implementation": "8654619c5beac89a5f3fb3ec5413b54e4fb6e110444f26f9d35dc82410af7536",
+    "cases": {
+      "Yuanli": {
+        "project": "元利四季莊園",
+        "district": "臺北市_文山區",
+        "family": "Residential"
+      },
+      "Chiayi": {
+        "project": "嘉義都更好",
+        "district": "嘉義市_嘉義市",
+        "family": "Residential"
+      },
+      "Fengcai": {
+        "project": "豐采520",
+        "district": "新竹縣_竹北市",
+        "family": "Commercial"
+      }
+    },
+    "weight": 0.5,
+    "absolute_cap": 2000000.0,
+    "relative_cap": 0.1,
+    "V11": "2d47eae33420160cc333039be437115ce79c20ec584f4f951849aca701b517be",
+    "V8_History": {
+      "dev": "718473688a7f4c23378c05dcdac7881f7cd7c442ae2c32d7e46ac2f00b4d231f",
+      "check": "2abc95f77065e3e86983bb69d92c410564a24ff218957ba2ecb322091e6ba866"
+    },
+    "workbooks": {
+      "Train": "73de901517f96453ec60c6dc51cca56168ef60446955ebfcd5b398472a331e68",
+      "Test": "19c785ae5679973c0ad859090340dfa0dc8ad4a968f0fa764c16b0fa81d17736"
+    },
+    "sources": {
+      "try_pipeline.py": "7bb2abe9c7c05e8c4cfc4ace8327f445b56671395cbd19a9291119186f93d579",
+      "study_pipeline.py": "99757595badb5aed4d0280878abcdbcd5d7cf64d324676c6c26d643cdb37b763",
+      "v9_reference.py": "923be5846a477b46d6d8f3bbbc488d586f09ba3cac62c2454be4e2e1ad3f9ab8"
+    }
+  },
+  "Submission": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v14/submission_v14.csv",
+  "SHA256": "2d47eae33420160cc333039be437115ce79c20ec584f4f951849aca701b517be",
+  "Baseline_User_Reported_Kaggle_MAE": 1901325,
+  "V13_User_Reported_Kaggle_MAE": 1968723,
+  "New_Backend_Model_Fits": 0,
+  "Test_Valid_Answers_Read": false,
+  "Allowed_Rows": 947,
+  "Changed_Rows": 0,
+  "Outside_Scope_Rows": 46126,
+  "Outside_Scope_Exact_Parity": true,
+  "Unchanged_Row_Bytes_Verified": 47073,
+  "Duplicate_Of_V11": true,
+  "New_Kaggle_MAE": null,
+  "Full_Test_Maximum_Possible_MAE_Change": 0.0,
+  "Full_Test_Bound_Is_Not_A_Public_Subset_Guarantee": true,
+  "Mall_Total_Changed": false,
+  "Uploaded": false,
+  "Interpretation": "A scoped experiment, not a claim of improved Test accuracy",
+  "artifacts": {
+    "submission_v14.csv": "2d47eae33420160cc333039be437115ce79c20ec584f4f951849aca701b517be",
+    "tables/commercial_decomposition.csv": "2c125079e49539aa639275697a820bdad75db30434b7bf1e2802c933d21ba819",
+    "tables/case_summary.csv": "082b88c5c66ec36aa756742fb7329e505852c24e60e4c700efa882c63e79db48",
+    "tables/regional_proxy_validation.csv": "32ce14eef8a538c9d88558a1c699f8264d4cc3b84cd415867e6639d159fd16b6",
+    "predictions/local_changes.csv": "3deea122b076a3e0e90f7ace8654129998e78be91a6d100bbecdac8d7843a064",
+    "figures/v14_scope.png": "b09e90d1697966f973c476791d47980a2a8e2ab81220c4f840d5125f63c76f32",
+    "figures/v14_scope.svg": "aaa314c3a6e59c73d125f60ea45ee29949ee2a8964f7f9b0ab31a1defd0e890f"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Frozen_Kaggle_MAE": 1918506,
+  "Frozen_SHA256": "0fe22eafd43db8f78a8f8ec54696afe53d7fe7aadebb41a4f67d24f626a5cebb",
+  "Prediction_Parity_Passed": true,
+  "Maximum_Absolute_Difference": 1.1920928955078125e-07,
+  "Mean_Absolute_Difference": 1.5556839153924301e-09,
+  "Rows": 47073,
+  "New_Kaggle_MAE": null,
+  "Training_Used_Reference_Predictions": false,
+  "Interpretation": "Numerically equivalent replay"
+}

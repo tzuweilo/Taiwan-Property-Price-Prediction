@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "added": "City, district, road and parcel section",
+  "reason": "The same area can have different prices in different locations",
+  "parameters": {
+    "loss_function": "MAE",
+    "eval_metric": "MAE",
+    "iterations": 2400,
+    "learning_rate": 0.04,
+    "depth": 8,
+    "l2_leaf_reg": 8,
+    "random_seed": 42,
+    "thread_count": 8,
+    "allow_writing_files": false,
+    "verbose": 200
+  },
+  "feature_columns": [
+    "Land_Area",
+    "Building_Area",
+    "Parking_Area",
+    "Transaction_Year",
+    "Transaction_Month",
+    "Month_Index",
+    "City",
+    "Town",
+    "District",
+    "Road_Section",
+    "Month_Sin",
+    "Month_Cos",
+    "Parcel_Section"
+  ],
+  "target_scale": 1000000.0,
+  "historical_fit_last_month": "2024-03",
+  "development": "2024-04 to 2024-06",
+  "check": "2024-07 to 2024-08",
+  "full_train_export": true,
+  "historical_cache": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v2/models/historical/V2/2f4b1f9f77ba",
+  "test_labels_used": false,
+  "full_cache": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v2/models/full/V2/25454cae80a0"
+}

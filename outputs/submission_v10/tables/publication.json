@@ -1,0 +1,12 @@
+{
+  "Version": "submission_v10",
+  "Submission": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v10/submission_v10.csv",
+  "SHA256": "0ba83cf9d9811164032d25f5141259da3a11690438d0276854bf789290685226",
+  "New_Kaggle_MAE": 1901809,
+  "Status": "Exported",
+  "Original_Run_Folder": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v10_onefit/3f7648cfe909a7a1",
+  "Score_Source": "User-reported public leaderboard, linked by exact CSV hash",
+  "Copy_Only": true,
+  "New_Training": 0,
+  "New_Inference": 0
+}

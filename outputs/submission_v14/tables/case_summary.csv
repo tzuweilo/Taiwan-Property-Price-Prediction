@@ -1,0 +1,4 @@
+Case,Project,Scoped_Rows,Changed_Rows,Same_Project_Train_Rows,Proxy_Status,Mean_Abs_Change
+Yuanli,元利四季莊園,715,0,0,"{'Proxy_Available': False, 'Proxy_Improves_Both_Windows': False, 'Proxy_Protection_Passed': False, 'Exact_Target_Project_Train_Rows': 0, 'Interpretation': 'Regional proxy only; not target-project or V11 paired evidence'}",0.0
+Chiayi,嘉義都更好,231,0,0,"{'Proxy_Available': True, 'Proxy_Improves_Both_Windows': False, 'Proxy_Protection_Passed': False, 'Exact_Target_Project_Train_Rows': 0, 'Interpretation': 'Regional proxy only; not target-project or V11 paired evidence'}",0.0
+Fengcai,豐采520,1,0,426,{'Status': 'Commercial decomposition; preserve unsupported total'},0.0

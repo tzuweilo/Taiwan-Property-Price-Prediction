@@ -1,0 +1,17 @@
+{
+  "Accepted": false,
+  "Selected_Ordinary_Weight": 0.5,
+  "Selected_Commercial_Weight": 0.0,
+  "Weight_Selection": "Dev only; Check is accept/reject without fallback retuning",
+  "Period_Passed": {
+    "Dev": false,
+    "Check": false
+  },
+  "Minimum_Overall_MAE_Reduction": 100000,
+  "Commercial_Allowed_Strata": [
+    "[\"Office_Retail\", \"辦公商業大樓\", \"見其他登記事項\"]"
+  ],
+  "Evaluation_Status": "Previously reviewed retrospective windows; no blind confirmation claimed",
+  "Test_Valid_Read": false,
+  "Reason": "Required overall gain or accuracy protection failed; preserve V8"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 8,
+  "added": "Published Airport resettlement unit schedule",
+  "reason": "Use an explicit public-price rule only when unit identity and area agree",
+  "new_model_fits": 0,
+  "input_version": 7,
+  "source": "Embedded public CAA and city unit schedules, with source date guards",
+  "area_tolerance_sqm": 0.02,
+  "parking_midpoint_twd": 1050000,
+  "parking_range_twd": [
+    850000,
+    1250000
+  ],
+  "test_labels_used": false,
+  "prediction_reference_used_for_training": false
+}

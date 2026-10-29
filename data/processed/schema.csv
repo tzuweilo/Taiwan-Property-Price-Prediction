@@ -1,0 +1,55 @@
+No,Feature,Train_Dtype,In_Valid,In_Test,Role,First_Version,Group,Representation
+1,編號,str,True,True,Excluded identifier,,Outcome/Excluded,Row alignment only
+2,總價元,float64,True,False,Outcome,,Outcome/Excluded,Training/evaluation target only
+3,鄉鎮市區,str,True,True,Model predictor,2.0,Location,Town
+4,交易標的,str,True,True,Model predictor,3.0,Property,Transaction_Target
+5,土地位置建物門牌,string,True,True,Derived/coarse representation,2.0,Location,Coarse city/district/road/parcel only; full address excluded
+6,土地移轉總面積平方公尺,Float64,True,True,Model predictor,1.0,Area,Land_Area
+7,都市土地使用分區,str,True,True,Model predictor,3.0,Property,Urban_Zoning
+8,非都市土地使用分區,str,True,True,Model predictor,3.0,Property,Rural_Zoning
+9,非都市土地使用編定,str,True,True,Model predictor,3.0,Property,Rural_Land_Use
+10,交易年月日,string,True,True,Derived/coarse representation,1.0,Time,"Year/month/index, month cycle; day/validity in V6"
+11,交易筆棟數,string,True,True,Derived/coarse representation,4.0,Parking_Counts,Parsed land/building/parking counts
+12,移轉層次,string,True,True,Model predictor,4.0,Structure,Transferred_Floor_Text
+13,總樓層數,Int64,True,True,Model predictor,4.0,Structure,Total_Floors
+14,建物型態,str,True,True,Model predictor,3.0,Property,Building_Type
+15,主要用途,str,True,True,Model predictor,3.0,Property,Primary_Use
+16,主要建材,str,True,True,Model predictor,3.0,Property,Material
+17,建築完成年月,string,True,True,Derived/coarse representation,4.0,Structure,"Completion year, age, validity"
+18,建物移轉總面積平方公尺,Float64,True,True,Model predictor,1.0,Area,Building_Area
+19,建物現況格局-房,Int64,True,True,Model predictor,4.0,Structure,Rooms
+20,建物現況格局-廳,Int64,True,True,Model predictor,4.0,Structure,Living_Rooms
+21,建物現況格局-衛,Int64,True,True,Model predictor,4.0,Structure,Bathrooms
+22,建物現況格局-隔間,str,True,True,Model predictor,6.0,Remarks,Partition
+23,有無管理組織,string,True,True,Model predictor,6.0,Remarks,Management
+24,車位類別,str,True,True,Model predictor,4.0,Parking_Counts,Parking_Type
+25,車位移轉總面積平方公尺,Float64,True,True,Model predictor,1.0,Area,Parking_Area
+26,備註,string,True,True,Derived/coarse representation,6.0,Remarks,Semantic flags only; raw text excluded
+27,建案名稱,str,True,True,Model predictor,5.0,Project,Project
+28,棟及號,string,True,True,Derived/coarse representation,5.0,Project,Block prefix only; unit identifier excluded
+29,解約情形,string,True,True,Excluded post-outcome,,Outcome/Excluded,Cancellation status excluded
+30,交易年,float64,True,True,Model predictor,1.0,Time,Transaction_Year
+31,交易月,float64,True,True,Model predictor,1.0,Time,Transaction_Month
+32,交易時間序號,float64,True,True,Model predictor,1.0,Time,Month_Index
+33,交易土地筆數,Int64,True,True,Model predictor,4.0,Parking_Counts,Land_Count
+34,交易建物筆數,Int64,True,True,Model predictor,4.0,Parking_Counts,Building_Count
+35,交易車位筆數,Int64,True,True,Model predictor,4.0,Parking_Counts,Parking_Count
+36,移轉樓層,float64,True,True,Model predictor,4.0,Structure,Transferred_Floor
+37,整棟交易,int8,True,True,Model predictor,4.0,Structure,Whole_Building
+38,多樓層交易,int8,True,True,Model predictor,4.0,Structure,Multiple_Floors
+39,相對樓層,Float64,True,True,Model predictor,4.0,Structure,Relative_Floor
+40,土地使用類型,str,True,True,Model predictor,3.0,Property,Land_Use_Family
+41,縣市,str,True,True,Model predictor,2.0,Location,City
+42,行政區,str,True,True,Model predictor,2.0,Location,District
+43,有備註,int8,True,True,Model predictor,6.0,Remarks,Has_Remarks
+44,特殊關係交易,int8,True,True,Model predictor,6.0,Remarks,Special_Relationship
+45,含裝潢家具家電資訊,int8,True,True,Model predictor,6.0,Remarks,Furnishing_Mention
+46,毛胚屋,int8,True,True,Model predictor,6.0,Remarks,Unfinished_Interior
+47,雨遮不計價,int8,True,True,Model predictor,6.0,Remarks,Canopy_Not_Priced
+48,持分交易,int8,True,True,Model predictor,6.0,Remarks,Broad_Share_Mention
+49,含增建,int8,True,True,Model predictor,6.0,Remarks,Extension_Mention
+50,預售資訊,int8,True,True,Model predictor,6.0,Remarks,Presale_Mention
+51,道路地段,str,True,True,Model predictor,2.0,Location,Road_Section
+52,地址基地,str,True,True,Derived/coarse representation,2.0,Location,Coarse location already represented; exact base-address category excluded
+53,建案行政區,str,True,True,Model predictor,5.0,Project,Project_District
+54,棟別,str,True,True,Model predictor,5.0,Project,Block

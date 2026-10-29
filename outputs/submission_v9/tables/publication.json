@@ -1,0 +1,12 @@
+{
+  "Version": "submission_v9",
+  "Submission": "",
+  "SHA256": null,
+  "New_Kaggle_MAE": null,
+  "Status": "Rejected",
+  "Original_Run_Folder": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/v9_candidate/8035a1534b15c232",
+  "Score_Source": "User-reported public leaderboard, linked by exact CSV hash",
+  "Copy_Only": true,
+  "New_Training": 0,
+  "New_Inference": 0
+}

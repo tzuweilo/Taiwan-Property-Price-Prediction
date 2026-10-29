@@ -1,0 +1,67 @@
+{
+  "sources": {
+    "legacy_pipeline.py": "bd54bb9c5392fd673d0fcc638f7850c914406bb34b054ce76bed6ec8db833194",
+    "try_pipeline.py": "7bb2abe9c7c05e8c4cfc4ace8327f445b56671395cbd19a9291119186f93d579",
+    "study_pipeline.py": "99757595badb5aed4d0280878abcdbcd5d7cf64d324676c6c26d643cdb37b763",
+    "charts.py": "bf7bf6e5eb32e4675e99449f27862f1eefeaae746953d4f8db2aa7490ede3dc2",
+    "project.py": "657500c4b358ed8e623b77c71c463db0206154d0236c9737ca088fe65d1775d6",
+    "airport_policy.py": "4179a6bd391b10aa0500b9f0b368dfc6dd9524a2dc51e4981a1c0f5873f0e709",
+    "notebook_runtime.py": "5ed0950a038173eb20272ca73cd83390a81d60a9e27ef09497bc21a844a685f3"
+  },
+  "runtime": {
+    "threads": 8,
+    "full_ablations": true,
+    "save_processed_data": false,
+    "copy_raw_files": false,
+    "cache_raw_workbooks": false,
+    "shap_rows": 256,
+    "permutation_rows": 5000,
+    "permutation_repeats": 3
+  },
+  "inputs": {
+    "Train": "73de901517f96453ec60c6dc51cca56168ef60446955ebfcd5b398472a331e68",
+    "Valid": "0e74cc6d2498bae5df535c91f9492ffdf81490ffae1ab6d9e3ce22a0caa4e893",
+    "Test": "19c785ae5679973c0ad859090340dfa0dc8ad4a968f0fa764c16b0fa81d17736"
+  },
+  "outputs": {
+    "outputs/submission_v1/tables/metrics.csv": "0e40db1fb4885f52b7ec19db126701ef57fbbdd2bc2678499513cb9158b6d6ee",
+    "outputs/submission_v1/submission_v1.csv": "b5a641f39d5aa37860d90ae21921a68c8e0dcd295a5801e1ba7b6fb4e8b12bb8",
+    "outputs/submission_v2/tables/metrics.csv": "2f4686bbb98a38c6a855bc7aceb83affb787d3d0e90d3bedb4159d4e6fbe2970",
+    "outputs/submission_v2/submission_v2.csv": "3e39833a7c5c22d580ccb3a4a0161e439493901eea29babdd5a2babf528aed51",
+    "outputs/submission_v3/tables/metrics.csv": "6910507c2782252f68db6a7a1b4ca46826fe0d0927dca8946441d339984a0cbc",
+    "outputs/submission_v3/submission_v3.csv": "b8f2b9c0156a6030dc9bb5ee81f18c63d40eee7b345a2d15c029cc7beb432b2f",
+    "outputs/submission_v4/tables/metrics.csv": "d5212f768e750de626de44586a510c307e341bdfce1553b7570406627fd6a530",
+    "outputs/submission_v4/submission_v4.csv": "195871babb57986b3b1993af507ff8d14a25def4406a05428043dc7f963fbc0b",
+    "outputs/submission_v5/tables/metrics.csv": "0696a72f1a8ee2f5de424e4b2a85b3ff2f203e71413fe47ba52f03740d596eea",
+    "outputs/submission_v5/submission_v5.csv": "c1565e4b4f55814ccd3fe82688c529ec223be9275e29fb31bfd404b9eb1157e6",
+    "outputs/submission_v6/tables/metrics.csv": "0a1127a8dcf81b615c0d7a34d7dd0c0f20f0e7ea7562eeab136ab21ef108afc5",
+    "outputs/submission_v6/submission_v6.csv": "a7879c595cad3419305bcb60a5a9c0154d6b6ef831eca901f3e8b40be8ba8529",
+    "outputs/submission_v7/tables/metrics.csv": "ba245ebb3b3c8854c5689df3f1db689e891583ede71bc11127e4469cdbb37ef2",
+    "outputs/submission_v7/submission_v7.csv": "c22fa228675112a5ad2132fafcc13623b59313d47647de1f35f17321fec610f8",
+    "outputs/submission_v8/tables/metrics.csv": "9c3ae9a8bc885783d1aa6836ea5f364ca2c8a3266c51ac5491f1e6cc8fd58d0e",
+    "outputs/submission_v8/submission_v8.csv": "a54a3591ea6bae70ce0136ced17c1bf28a41d9908f911c82f46b31ff3f7a2a93"
+  },
+  "steps": {
+    "14": "8bb749e280feede98bd94bc4ff77de75d09c5b44665239f86517bd34388592d6",
+    "16": "c185e8696c0f9324c301eebc7f177fed92f0765bb58e7b2fa93bae253b94e679",
+    "18": "b73b39966f8ca20838c9e2e0528149654ef9a6b6b8d310d3c99573f5fda0294a",
+    "20": "e17168cea57ea96432a772a459fe806aa5386837b951d568b31701e100934ca0",
+    "22": "5f68413831fe0793a9e7809ecc50cec10e55c58fb2b524d085a4849ce6d4d8f8",
+    "24": "115e110e6fbf2dc64c7f7499f35ca776b4f8aec6560cfdf8f9050586c32710ea",
+    "26": "0a8501979eea8c870986aaa0123f885c4d5618e5314e50e2e1e0543626cb6947",
+    "28": "c1bf8418787b73f43b9c7dc53085e0acbb67b4af9a40aea259745f6a6d2a7683",
+    "30": "ab1c112e748aca249f8b5d95ad6ebf52edc15b5431ee24b6ae53235fea7f62db",
+    "32": "5842bd32ee4c4f0f8525e03166e85c60aef5a6db0cea411295df8a7ca5f63cfc",
+    "34": "06e8c843bbba0be13276905d3f05e4655b66745653ad52b7aaf706a837478919",
+    "36": "0e2219079fe23d3750023e7987b5dec0153ebd1332215972897ef6b043d47b9e",
+    "38": "371582ca82da32119278b8ff63c241c4b022e57ff272c33f6aa2681992c4d411",
+    "40": "f11d5dacb0ce77e5705427219f09aa434ad3613d1b9b02d8e9860a15199cd50a",
+    "42": "4b599141e0b83cd4ea13b73d15f87a2a5c78fbfd05ad49a43802a66a4c834b3b",
+    "44": "d90701e6220e0187d389bd707e77b4c0dc41f12b3d06b32e7709305f062deb9e",
+    "46": "e5dbecd751dd04eb8c08e91c8e5c7233a00997e04b2bbb641f950e650e4f45c2",
+    "48": "196364110b6368104b1d684f10fbb6d9c0c68a073201db4784f270c37baea3b7",
+    "50": "e2b986f0e110aa7c0b0dd75b5cb1e788156187f258c59bfa89e58c8ce2f5e7b6",
+    "52": "6ec858d1b814e054834ffcb1b196337d39a48707b17483176c90380061043638"
+  },
+  "meaning": "Completed result replay; model readiness is audited independently in Section 19"
+}

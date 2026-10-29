@@ -1,0 +1,2 @@
+Version,Added_Information,Comparison_Scope,Dev_MAE,Dev_MAE_Reduction,Check_MAE,Check_MAE_Reduction,Dev_Supports_Addition,Interpretation_Status
+submission_v4,"Floors, layout, parking, counts and explicit area ratios",Fixed model; feature-block change,1728877.197033127,190488.2952020329,2139550.725382715,120488.4621078372,True,Pending written interpretation after execution

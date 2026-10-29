@@ -1,0 +1,34 @@
+{
+  "1": {
+    "added": "Area and transaction time",
+    "reason": "Establish a reproducible size-and-time baseline"
+  },
+  "2": {
+    "added": "City, district, road and parcel section",
+    "reason": "The same area can have different prices in different locations"
+  },
+  "3": {
+    "added": "Type, use, zoning, material and location interactions",
+    "reason": "Residential and industrial prices follow different location relationships"
+  },
+  "4": {
+    "added": "Floors, layout, parking, counts and explicit area ratios",
+    "reason": "Separate physical scale from transaction composition"
+  },
+  "5": {
+    "added": "Project, block and project-location/type interactions",
+    "reason": "Project identity can explain variation within a district"
+  },
+  "6": {
+    "added": "Remarks, management, date detail and missingness",
+    "reason": "Account for transaction semantics and information availability"
+  },
+  "7": {
+    "added": "Fixed reference and comparison ensemble",
+    "reason": "Reproduce the complete evaluated system rather than a feature-only ablation"
+  },
+  "8": {
+    "added": "Published Airport resettlement unit schedule",
+    "reason": "Use an explicit public-price rule only when unit identity and area agree"
+  }
+}

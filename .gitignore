@@ -1,0 +1,18 @@
+
+# Trained models and binary caches
+outputs/**/models/
+*.cbm
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# Local temporary files
+__pycache__/
+.ipynb_checkpoints/
+catboost_info/
+*.tmp
+.DS_Store

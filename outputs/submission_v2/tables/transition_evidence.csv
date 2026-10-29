@@ -1,0 +1,2 @@
+Version,Added_Information,Comparison_Scope,Dev_MAE,Dev_MAE_Reduction,Check_MAE,Check_MAE_Reduction,Dev_Supports_Addition,Interpretation_Status
+submission_v2,"City, district, road and parcel section",Fixed model; feature-block change,2002402.1933482417,2493286.0397981973,2456683.887187818,2190156.957321668,True,Pending written interpretation after execution

@@ -1,0 +1,9 @@
+Version,Added_Information,Comparison_Scope,Dev_MAE,Dev_MAE_Reduction,Check_MAE,Check_MAE_Reduction,Dev_Supports_Addition,Interpretation_Status
+submission_v1,Area and transaction time,Fixed model; feature-block change,4495688.233146439,,4646840.844509486,,,Pending written interpretation after execution
+submission_v2,"City, district, road and parcel section",Fixed model; feature-block change,2002402.1933482417,2493286.0397981973,2456683.887187818,2190156.957321668,True,Pending written interpretation after execution
+submission_v3,"Type, use, zoning, material and location interactions",Fixed model; feature-block change,1919365.49223516,83036.70111308177,2260039.187490552,196644.69969726587,True,Pending written interpretation after execution
+submission_v4,"Floors, layout, parking, counts and explicit area ratios",Fixed model; feature-block change,1728877.197033127,190488.2952020329,2139550.725382715,120488.4621078372,True,Pending written interpretation after execution
+submission_v5,"Project, block and project-location/type interactions",Fixed model; feature-block change,1699743.3648465998,29133.832186527317,2139171.7577444296,378.96763828536496,True,Pending written interpretation after execution
+submission_v6,"Remarks, management, date detail and missingness",Fixed model; feature-block change,1705786.0712621813,-6042.706415581517,2190854.759274576,-51683.001530146226,False,Pending written interpretation after execution
+submission_v7,Fixed reference and comparison ensemble,Ensemble and calibration change,1827921.0777488397,-122135.00648665847,1999545.9812637195,191308.77801085636,False,Pending written interpretation after execution
+submission_v8,Published Airport resettlement unit schedule,Published allocation rule,1827921.0777488397,0.0,1999545.9812637195,0.0,False,Pending written interpretation after execution

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "added": "Area and transaction time",
+  "reason": "Establish a reproducible size-and-time baseline",
+  "parameters": {
+    "loss_function": "MAE",
+    "eval_metric": "MAE",
+    "iterations": 2400,
+    "learning_rate": 0.04,
+    "depth": 8,
+    "l2_leaf_reg": 8,
+    "random_seed": 42,
+    "thread_count": 8,
+    "allow_writing_files": false,
+    "verbose": 200
+  },
+  "feature_columns": [
+    "Land_Area",
+    "Building_Area",
+    "Parking_Area",
+    "Transaction_Year",
+    "Transaction_Month",
+    "Month_Index",
+    "Month_Sin",
+    "Month_Cos"
+  ],
+  "target_scale": 1000000.0,
+  "historical_fit_last_month": "2024-03",
+  "development": "2024-04 to 2024-06",
+  "check": "2024-07 to 2024-08",
+  "full_train_export": true,
+  "historical_cache": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v1/models/historical/V1/fdcc38d1709e",
+  "test_labels_used": false,
+  "full_cache": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v1/models/full/V1/9993571bf136"
+}

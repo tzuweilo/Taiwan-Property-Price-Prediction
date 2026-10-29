@@ -1,0 +1,10 @@
+Rule,Treatment
+Numeric parsing,Coerce invalid numeric text to missing; keep raw files
+Target eligibility,"Train: positive numeric target, excluding fixed source anomalies 520 and 1760"
+Area parsing,Negative areas to missing; two fixed source land-area anomalies to missing in Train
+Layout compatibility,"Counts below zero or at least 20 become unknown for the frozen recipe, not proof of invalidity"
+Dates,Parse ROC dates; invalid dates remain missing; preserve original date text
+Address,"Normalize city names; derive district, road, parcel and project keys"
+Known site-area conflict,Report Hanlin 7029.51 sqm cohort; do not silently change the evaluated recipe
+Derived area formulas,V1-V6 use explicit correct area fields; V7 has documented frozen compatibility expressions
+Cancellation and ID,Never treat row ID or post-transaction cancellation text as predictive evidence

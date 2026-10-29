@@ -1,0 +1,9 @@
+{
+  "identity": "56d89837bada34714938bf78f22870d5f0d661376cb0973946267d388b83d396",
+  "model_sha256": "664babf3f89b968474b6c47370c52119b94388d39bc4f12fadeb70a47d838ce6",
+  "policy": "Median",
+  "weight": 1.0,
+  "selection": "June Train labels only, best nonzero exploratory candidate",
+  "Historical_Windows_Previously_Reviewed": true,
+  "Test_Valid_Labels_Used": false
+}

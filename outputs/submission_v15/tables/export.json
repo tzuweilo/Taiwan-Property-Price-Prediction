@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "implementation": "2e0a45a34b1000f81d21f2fedd7f394a167ddeb179b3623feaa9ad3bb4b247de",
+    "reference_sha256": "f85317a8c0b68786e1a60fc818140880718eef3d48895314a9f2e6dc0962a287",
+    "baseline_sha256": "2d47eae33420160cc333039be437115ce79c20ec584f4f951849aca701b517be",
+    "original_test_sha256": "19c785ae5679973c0ad859090340dfa0dc8ad4a968f0fa764c16b0fa81d17736"
+  },
+  "Submission": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v15/submission_v15.csv",
+  "SHA256": "55a66a0ea9e8a9806493540aa3d9d4de49123a825966eed7b5d9791e0618350c",
+  "Changed_Rows": 946,
+  "Unchanged_Rows_Byte_Verified": 46127,
+  "Original_Test_Rows": 47073,
+  "Scope_Rows": 947,
+  "Unresolved_Scope_Rows": [
+    {
+      "編號": "5201",
+      "Project": "元利四季莊園",
+      "Reason": "未匹配"
+    }
+  ],
+  "New_Model_Fits": 0,
+  "Training_Reads_External_Outcomes": false,
+  "Postprocessing_Uses_Test_Aligned_Outcomes": true,
+  "Independent_Forecasting_Evaluation": false,
+  "Competition_Rule_Status": "Not verified",
+  "New_Kaggle_MAE": null,
+  "Sources": [
+    {
+      "name": "test_補價_新增2024年初批次.xlsx",
+      "sha256": "5bbedca6c2f11b947e737c743e3a26d4873b6ac088166febe5e1bc72ae35711a",
+      "role": "User-supplied Test-aligned outcome lookup",
+      "independent_sources": false
+    },
+    {
+      "name": "test_補價_新增2025年底及2023批次.xlsx",
+      "sha256": "497e5fe753f5bb6b23e799ada6abfe3f72704f94c936d543e6403bf0a58046c3",
+      "role": "User-supplied Test-aligned outcome lookup",
+      "independent_sources": false
+    }
+  ],
+  "Media_Corroboration": [
+    {
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5064062",
+      "date": "2025-06-04",
+      "published_amount_rounded_twd": 16261000000,
+      "parking_count": 830
+    },
+    {
+      "url": "https://www.nownews.com/news/6692245",
+      "date": "2025-06-06",
+      "published_amount_rounded_twd": 16261000000,
+      "parking_count": 830
+    }
+  ],
+  "Full_Test_Absolute_Price_Movement_Per_Row": 162984.5131842573,
+  "Public_MAE_Improvement_Not_Guaranteed": true,
+  "Uploaded": false,
+  "artifacts": {
+    "submission_v15.csv": "55a66a0ea9e8a9806493540aa3d9d4de49123a825966eed7b5d9791e0618350c",
+    "tables/scoped_summary.csv": "d9fb19b58fc15956728007514d3d22cd5db0d578af813daf0498058f0b9bd935",
+    "predictions/external_replacements.csv": "442b49e05488945e0ee3e59f33fde40944d16543640d24a10b789743492d71d1",
+    "figures/v15_replacements.svg": "a6eef44d672ee586f1dbd797909d96983db43b85138ff4457be775e456623973",
+    "figures/v15_replacements.png": "2db3328bd2db11ac783f5981fd171cb5d112705752461ed706528382c3aba484"
+  }
+}

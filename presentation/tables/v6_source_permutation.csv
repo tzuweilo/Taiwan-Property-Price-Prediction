@@ -1,0 +1,62 @@
+Feature,Group,Scope,Status,Rows,Repeats,Source_Columns,Baseline_MAE,MAE_Increase,MAE_Increase_Pct,Std,Sampling
+Area,Area,Group,Evaluated,5000,3.0,土地移轉總面積平方公尺 | 建物移轉總面積平方公尺 | 車位移轉總面積平方公尺,2090725.930389638,5151348.171701842,246.3904090356698,75016.01382625174,Uniform fixed holdout sample; no rare-event guarantee
+Time,Time,Group,Evaluated,5000,3.0,交易年月日 | 交易年 | 交易月 | 交易時間序號,2090725.930389638,5671.702184283019,0.271279085500509,1426.2124363210405,Uniform fixed holdout sample; no rare-event guarantee
+Location,Location,Group,Evaluated,5000,3.0,土地位置建物門牌 | 縣市 | 鄉鎮市區 | 行政區 | 道路地段 | 地址基地,2090725.930389638,5180961.2845405415,247.80681242017175,102963.91496051068,Uniform fixed holdout sample; no rare-event guarantee
+Property,Property,Group,Evaluated,5000,3.0,交易標的 | 建物型態 | 主要用途 | 都市土地使用分區 | 非都市土地使用分區 | 非都市土地使用編定 | 土地使用類型 | 主要建材,2090725.930389638,354429.3754888652,16.952455141875625,4563.803679796282,Uniform fixed holdout sample; no rare-event guarantee
+Structure,Structure,Group,Evaluated,5000,3.0,移轉層次 | 總樓層數 | 移轉樓層 | 整棟交易 | 多樓層交易 | 相對樓層 | 建物現況格局-房 | 建物現況格局-廳 | 建物現況格局-衛 | 建築完成年月,2090725.930389638,695177.1770424919,33.250516815130105,39091.27557060909,Uniform fixed holdout sample; no rare-event guarantee
+Parking_Counts,Parking_Counts,Group,Evaluated,5000,3.0,交易筆棟數 | 交易土地筆數 | 交易建物筆數 | 交易車位筆數 | 車位類別,2090725.930389638,226433.71665577948,10.830387348454618,31851.28936364872,Uniform fixed holdout sample; no rare-event guarantee
+Project,Project,Group,Evaluated,5000,3.0,建案名稱 | 建案行政區 | 棟及號 | 棟別,2090725.930389638,463434.0018972422,22.166176597373255,7762.515575307025,Uniform fixed holdout sample; no rare-event guarantee
+Remarks,Remarks,Group,Evaluated,5000,3.0,備註 | 建物現況格局-隔間 | 有無管理組織 | 有備註 | 特殊關係交易 | 含裝潢家具家電資訊 | 毛胚屋 | 雨遮不計價 | 持分交易 | 含增建 | 預售資訊,2090725.930389638,22326.24452564136,1.0678704559559622,2110.8168399291926,Uniform fixed holdout sample; no rare-event guarantee
+編號,Outcome/Excluded,Column,Excluded,5000,,,,,,,
+鄉鎮市區,Location,Column,Evaluated,5000,3.0,鄉鎮市區,2090725.930389638,1804089.6226981832,86.29010605718005,37453.511499246095,Uniform fixed holdout sample; no rare-event guarantee
+交易標的,Property,Column,Evaluated,5000,3.0,交易標的,2090725.930389638,45049.553392156646,2.1547326092502703,2348.8022180759795,Uniform fixed holdout sample; no rare-event guarantee
+土地位置建物門牌,Location,Column,Evaluated,5000,3.0,土地位置建物門牌 | 縣市 | 鄉鎮市區 | 行政區 | 道路地段 | 地址基地,2090725.930389638,5193147.917801247,248.38970246250432,69262.46840747773,Uniform fixed holdout sample; no rare-event guarantee
+土地移轉總面積平方公尺,Area,Column,Evaluated,5000,3.0,土地移轉總面積平方公尺,2090725.930389638,264354.584097879,12.644152935368844,35334.72000194804,Uniform fixed holdout sample; no rare-event guarantee
+都市土地使用分區,Property,Column,Evaluated,5000,3.0,都市土地使用分區,2090725.930389638,91568.26779782058,4.37973559646603,6422.113611966835,Uniform fixed holdout sample; no rare-event guarantee
+非都市土地使用分區,Property,Column,Evaluated,5000,3.0,非都市土地使用分區,2090725.930389638,47632.897598371994,2.278294677748359,5145.981778323563,Uniform fixed holdout sample; no rare-event guarantee
+非都市土地使用編定,Property,Column,Evaluated,5000,3.0,非都市土地使用編定,2090725.930389638,4809.435975585366,0.23003665404814946,1856.46740211074,Uniform fixed holdout sample; no rare-event guarantee
+交易年月日,Time,Column,Evaluated,5000,3.0,交易年月日,2090725.930389638,7042.369645648248,0.33683848960230744,1437.0198983107402,Uniform fixed holdout sample; no rare-event guarantee
+交易筆棟數,Parking_Counts,Column,Evaluated,5000,3.0,交易筆棟數,2090725.930389638,184936.47301082205,8.845562697754286,14924.72836205374,Uniform fixed holdout sample; no rare-event guarantee
+移轉層次,Structure,Column,Evaluated,5000,3.0,移轉層次,2090725.930389638,202617.35940177864,9.691244388211986,2629.0239406120177,Uniform fixed holdout sample; no rare-event guarantee
+總樓層數,Structure,Column,Evaluated,5000,3.0,總樓層數,2090725.930389638,314285.56490262615,15.032365569027709,11837.92548717485,Uniform fixed holdout sample; no rare-event guarantee
+建物型態,Property,Column,Evaluated,5000,3.0,建物型態,2090725.930389638,152732.97353000115,7.305260403095354,9032.937048402897,Uniform fixed holdout sample; no rare-event guarantee
+主要用途,Property,Column,Evaluated,5000,3.0,主要用途,2090725.930389638,38752.67300627412,1.8535510773070087,2742.475676881643,Uniform fixed holdout sample; no rare-event guarantee
+主要建材,Property,Column,Evaluated,5000,3.0,主要建材,2090725.930389638,29868.592440312885,1.4286230445683727,4251.956397094333,Uniform fixed holdout sample; no rare-event guarantee
+建築完成年月,Structure,Column,Evaluated,5000,3.0,建築完成年月,2090725.930389638,0.0,0.0,0.0,Uniform fixed holdout sample; no rare-event guarantee
+建物移轉總面積平方公尺,Area,Column,Evaluated,5000,3.0,建物移轉總面積平方公尺,2090725.930389638,5418429.502545382,259.16498302269474,37332.096225022775,Uniform fixed holdout sample; no rare-event guarantee
+建物現況格局-房,Structure,Column,Evaluated,5000,3.0,建物現況格局-房,2090725.930389638,81377.32223254845,3.892299849047291,9946.98583712924,Uniform fixed holdout sample; no rare-event guarantee
+建物現況格局-廳,Structure,Column,Evaluated,5000,3.0,建物現況格局-廳,2090725.930389638,4302.472442018567,0.20578844790128645,449.89496968618215,Uniform fixed holdout sample; no rare-event guarantee
+建物現況格局-衛,Structure,Column,Evaluated,5000,3.0,建物現況格局-衛,2090725.930389638,37703.09468984712,1.8033494558906908,1251.858983238762,Uniform fixed holdout sample; no rare-event guarantee
+建物現況格局-隔間,Remarks,Column,Evaluated,5000,3.0,建物現況格局-隔間,2090725.930389638,22.33929412594686,0.0010684946219509316,67.89306830428751,Uniform fixed holdout sample; no rare-event guarantee
+有無管理組織,Remarks,Column,Evaluated,5000,3.0,有無管理組織,2090725.930389638,0.0,0.0,0.0,Uniform fixed holdout sample; no rare-event guarantee
+車位類別,Parking_Counts,Column,Evaluated,5000,3.0,車位類別,2090725.930389638,39443.021333711375,1.8865706289088104,5997.687831010606,Uniform fixed holdout sample; no rare-event guarantee
+車位移轉總面積平方公尺,Area,Column,Evaluated,5000,3.0,車位移轉總面積平方公尺,2090725.930389638,468053.7075722202,22.387138398622692,6988.656806444455,Uniform fixed holdout sample; no rare-event guarantee
+備註,Remarks,Column,Evaluated,5000,3.0,備註,2090725.930389638,24561.499994639616,1.1747833437959136,913.2044833688863,Uniform fixed holdout sample; no rare-event guarantee
+建案名稱,Project,Column,Evaluated,5000,3.0,建案名稱,2090725.930389638,267068.73915728444,12.773971723185744,10376.568174741811,Uniform fixed holdout sample; no rare-event guarantee
+棟及號,Project,Column,Evaluated,5000,3.0,棟及號,2090725.930389638,36997.89462715139,1.7696195416802565,378.5778296059065,Uniform fixed holdout sample; no rare-event guarantee
+解約情形,Outcome/Excluded,Column,Excluded,5000,,,,,,,
+交易年,Time,Column,Evaluated,5000,3.0,交易年,2090725.930389638,0.0,0.0,0.0,Uniform fixed holdout sample; no rare-event guarantee
+交易月,Time,Column,Evaluated,5000,3.0,交易月,2090725.930389638,420.77006073792774,0.02012554848159897,160.47678466392202,Uniform fixed holdout sample; no rare-event guarantee
+交易時間序號,Time,Column,Evaluated,5000,3.0,交易時間序號,2090725.930389638,369.1391078579084,0.017656025712997868,110.77974913682145,Uniform fixed holdout sample; no rare-event guarantee
+交易土地筆數,Parking_Counts,Column,Evaluated,5000,3.0,交易土地筆數,2090725.930389638,41197.526345662154,1.9704890893080558,7406.766211444405,Uniform fixed holdout sample; no rare-event guarantee
+交易建物筆數,Parking_Counts,Column,Evaluated,5000,3.0,交易建物筆數,2090725.930389638,78213.06761988641,3.7409526750027076,21322.281834187692,Uniform fixed holdout sample; no rare-event guarantee
+交易車位筆數,Parking_Counts,Column,Evaluated,5000,3.0,交易車位筆數,2090725.930389638,112038.00054374927,5.358808580083441,22152.38792550674,Uniform fixed holdout sample; no rare-event guarantee
+移轉樓層,Structure,Column,Evaluated,5000,3.0,移轉樓層,2090725.930389638,65039.069112729434,3.110836679612446,7241.094474491019,Uniform fixed holdout sample; no rare-event guarantee
+整棟交易,Structure,Column,Evaluated,5000,3.0,整棟交易,2090725.930389638,18886.501059882652,0.9033465738076377,164.57181013879332,Uniform fixed holdout sample; no rare-event guarantee
+多樓層交易,Structure,Column,Evaluated,5000,3.0,多樓層交易,2090725.930389638,467.6691250621031,0.022368743710704634,420.0456701133768,Uniform fixed holdout sample; no rare-event guarantee
+相對樓層,Structure,Column,Evaluated,5000,3.0,相對樓層,2090725.930389638,7915.2099644901855,0.3785866836699666,6420.817899707439,Uniform fixed holdout sample; no rare-event guarantee
+土地使用類型,Property,Column,Evaluated,5000,3.0,土地使用類型,2090725.930389638,20759.38573992951,0.9929271665014786,4708.870764028797,Uniform fixed holdout sample; no rare-event guarantee
+縣市,Location,Column,Evaluated,5000,3.0,縣市,2090725.930389638,3232181.8270399333,154.59615151171764,17003.37984864671,Uniform fixed holdout sample; no rare-event guarantee
+行政區,Location,Column,Evaluated,5000,3.0,行政區,2090725.930389638,5073117.175575458,242.6485988352384,18416.6807687399,Uniform fixed holdout sample; no rare-event guarantee
+有備註,Remarks,Column,Evaluated,5000,3.0,有備註,2090725.930389638,-482.4622251825252,-0.023076301784452975,254.366965251817,Uniform fixed holdout sample; no rare-event guarantee
+特殊關係交易,Remarks,Column,Evaluated,5000,3.0,特殊關係交易,2090725.930389638,7763.46100994572,0.3713284891673431,412.4299671844638,Uniform fixed holdout sample; no rare-event guarantee
+含裝潢家具家電資訊,Remarks,Column,Evaluated,5000,3.0,含裝潢家具家電資訊,2090725.930389638,11508.95476594024,0.5504764923346683,687.2804348501171,Uniform fixed holdout sample; no rare-event guarantee
+毛胚屋,Remarks,Column,Evaluated,5000,3.0,毛胚屋,2090725.930389638,-143.54201330190213,-0.006865654231167016,177.1432541969501,Uniform fixed holdout sample; no rare-event guarantee
+雨遮不計價,Remarks,Column,Evaluated,5000,3.0,雨遮不計價,2090725.930389638,3455.518466711122,0.1652784048106743,269.22775234521396,Uniform fixed holdout sample; no rare-event guarantee
+持分交易,Remarks,Column,Evaluated,5000,3.0,持分交易,2090725.930389638,593.4213144142026,0.02838350573781852,40.449612878871555,Uniform fixed holdout sample; no rare-event guarantee
+含增建,Remarks,Column,Evaluated,5000,3.0,含增建,2090725.930389638,937.0256899137361,0.0448181981336553,244.33293520562682,Uniform fixed holdout sample; no rare-event guarantee
+預售資訊,Remarks,Column,Evaluated,5000,3.0,預售資訊,2090725.930389638,162.84246400929987,0.007788800131203794,70.72871825764202,Uniform fixed holdout sample; no rare-event guarantee
+道路地段,Location,Column,Evaluated,5000,3.0,道路地段,2090725.930389638,271079.36026341346,12.965800840901885,33607.0581453815,Uniform fixed holdout sample; no rare-event guarantee
+地址基地,Location,Column,Evaluated,5000,3.0,地址基地,2090725.930389638,0.0,0.0,0.0,Uniform fixed holdout sample; no rare-event guarantee
+建案行政區,Project,Column,Evaluated,5000,3.0,建案行政區,2090725.930389638,401054.6379780861,19.182554353422287,24182.805154025737,Uniform fixed holdout sample; no rare-event guarantee
+棟別,Project,Column,Evaluated,5000,3.0,棟別,2090725.930389638,32544.367726488348,1.5566061172074914,3943.45177432471,Uniform fixed holdout sample; no rare-event guarantee

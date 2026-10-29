@@ -1,0 +1,35 @@
+{
+  "check_used_for_selection": false,
+  "config": {
+    "check_accurate_increase_pct": 15.0,
+    "check_end": 199,
+    "depth": 6,
+    "early_stopping_rounds": 200,
+    "iterations": 2200,
+    "l2_leaf_reg": 25.0,
+    "learning_rate": 0.035,
+    "maximum_change_twd": 3000000.0,
+    "maximum_damaged_fraction": 0.01,
+    "maximum_relative_change": 0.2,
+    "minimum_check_gain": 25000.0,
+    "minimum_leaf_rows": 100,
+    "minimum_stratum_rows": 40,
+    "minimum_tune_gain": 10000.0,
+    "old_cutoff": 187,
+    "seed": 42,
+    "threads": 8,
+    "train_end": 196,
+    "tune_accurate_increase_pct": 10.0,
+    "tune_month": 197,
+    "weights": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "model_sha256": "c28bf647077a7b5f31c83323fc146c28da6a93283111f118a6d85582d646d953",
+  "selection_month": 197,
+  "weight": 0.25
+}

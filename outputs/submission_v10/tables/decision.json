@@ -1,0 +1,14 @@
+{
+  "Check_Is_Retrospective": true,
+  "Check_MAE_Reduction": 154989.73233063985,
+  "Check_Protection_Passed": true,
+  "Export_Policy": "Export the June-locked nonzero candidate; report Check recommendation separately without retuning",
+  "June_Selection_Only": true,
+  "Kaggle_Target": "1.5M to 1.7M is a goal, not a score prediction or guarantee",
+  "New_Predictive_Models": 1,
+  "Production_Refit": false,
+  "Quantile_Crossing_Rows": 155,
+  "Recommended": true,
+  "Selected_Weight": 0.25,
+  "Test_Valid_Answers_Read": false
+}

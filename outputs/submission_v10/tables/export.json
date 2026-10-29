@@ -1,0 +1,16 @@
+{
+  "Airport_Locked_Rows": 1408,
+  "Changed_Rows": 11425,
+  "Exported": true,
+  "Kaggle_Uploaded": false,
+  "New_Production_Models": 0,
+  "Old_V8_Preserved": true,
+  "Quantile_Crossing_Rows": 25,
+  "Recommended": true,
+  "SHA256": "0ba83cf9d9811164032d25f5141259da3a11690438d0276854bf789290685226",
+  "Score_Guarantee": null,
+  "Selected_Weight": 0.25,
+  "Submission": "/home/hcl_dgx_1/Desktop/ML_HW1/ML_HW1_Price_Study/outputs/submission_v10_onefit/3f7648cfe909a7a1/submission_v10_candidate.csv",
+  "Test_Answers_Read": false,
+  "Within_Training_Period_Unchanged": 6366
+}

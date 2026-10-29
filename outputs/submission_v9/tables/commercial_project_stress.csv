@@ -1,0 +1,4 @@
+Stratum,Held_Out_Rows,Supported_Rows,Reference_MAE,Candidate_MAE,Largest_Error_Change_Share,Net_Error_Saved_Excluding_Top_Two_Gains,Maximum_Area_Ratio,Passed
+"[""Industrial"", ""廠辦"", ""工業用""]",22,14,5988874.108631378,9715538.227723897,0.21361104556669927,-62786119.37911132,1.4137808762889548,False
+"[""Office_Retail"", ""辦公商業大樓"", ""商業用""]",2,0,,,0.0,0.0,,False
+"[""Office_Retail"", ""辦公商業大樓"", ""見其他登記事項""]",14,12,222483004.40214226,205782505.5026778,0.09077648700571438,165064300.6779455,0.3985529105184217,True

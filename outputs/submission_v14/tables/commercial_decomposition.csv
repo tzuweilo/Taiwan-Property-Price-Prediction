@@ -1,0 +1,2 @@
+編號,Case,Gross_Area,Parking_Area,Nonparking_Area,Parking_Count,Train_Parking_Component,Parking_Reference_Source,Parking_Reference_Rows,Same_Project_Train_Rows,Same_Project_Max_Gross_Area,Same_Type_Use_City_Reference_Rows,Maximum_Supported_Nonparking_Area,Extrapolation_Ratio,V11,Changed,Status
+30528,Fengcai,94344.74,21988.12,72356.62000000001,830.0,,Missing,0,426,731.34,0,,,11857988910.431017,False,Preserved: a parking component alone does not identify the mall building price

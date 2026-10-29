@@ -1,0 +1,9 @@
+Version,Added_Information,Reason_To_Test,Feature_Count
+submission_v1,Area and transaction time,Establish a reproducible size-and-time baseline,8.0
+submission_v2,"City, district, road and parcel section",The same area can have different prices in different locations,13.0
+submission_v3,"Type, use, zoning, material and location interactions",Residential and industrial prices follow different location relationships,25.0
+submission_v4,"Floors, layout, parking, counts and explicit area ratios",Separate physical scale from transaction composition,49.0
+submission_v5,"Project, block and project-location/type interactions",Project identity can explain variation within a district,54.0
+submission_v6,"Remarks, management, date detail and missingness",Account for transaction semantics and information availability,74.0
+submission_v7,Fixed reference and comparison ensemble,Reproduce the complete evaluated system rather than a feature-only ablation,
+submission_v8,Published Airport resettlement unit schedule,Use an explicit public-price rule only when unit identity and area agree,

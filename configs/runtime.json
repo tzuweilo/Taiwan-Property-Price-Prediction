@@ -1,0 +1,10 @@
+{
+  "threads": 8,
+  "full_ablations": true,
+  "save_processed_data": false,
+  "copy_raw_files": false,
+  "cache_raw_workbooks": false,
+  "shap_rows": 256,
+  "permutation_rows": 5000,
+  "permutation_repeats": 3
+}

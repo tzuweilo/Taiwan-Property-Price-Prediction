@@ -1,0 +1,50 @@
+{
+  "implementation": "v9_prior_anchor_parking_decomposition_1",
+  "sources": {
+    "study_pipeline.py": "99757595badb5aed4d0280878abcdbcd5d7cf64d324676c6c26d643cdb37b763",
+    "try_pipeline.py": "7bb2abe9c7c05e8c4cfc4ace8327f445b56671395cbd19a9291119186f93d579",
+    "airport_policy.py": "4179a6bd391b10aa0500b9f0b368dfc6dd9524a2dc51e4981a1c0f5873f0e709",
+    "v9_reference.py": "923be5846a477b46d6d8f3bbbc488d586f09ba3cac62c2454be4e2e1ad3f9ab8",
+    "v9_candidate.py": "eda5c828110af627539082e0828f10463d3d347431b52ce17a19657dba332250"
+  },
+  "train_sha256": "73de901517f96453ec60c6dc51cca56168ef60446955ebfcd5b398472a331e68",
+  "config": {
+    "threads": 8,
+    "min_overall_gain": 100000,
+    "max_accurate_increase_pct": 2.0,
+    "max_new_damaged": 0,
+    "weights": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "ordinary_cap": 500000,
+    "commercial_relative_cap": 0.25,
+    "max_extrapolation_ratio": 1.5,
+    "iterations": 2400,
+    "seed": 42,
+    "minimum_fit_rows": 100,
+    "ordinary_reference_rows": 20,
+    "parking_reference_rows": 5,
+    "stress_projects": 5,
+    "minimum_stress_rows": 5,
+    "maximum_forecast_months": 8,
+    "fit_end_month": 194,
+    "dev_end_month": 197,
+    "check_end_month": 199
+  },
+  "baseline_hashes": {
+    "Dev": "718473688a7f4c23378c05dcdac7881f7cd7c442ae2c32d7e46ac2f00b4d231f",
+    "Check": "2abc95f77065e3e86983bb69d92c410564a24ff218957ba2ecb322091e6ba866"
+  },
+  "historical_fit_cutoff": "2024-03",
+  "Dev": "2024-04 to 2024-06",
+  "Check": "2024-07 to 2024-08",
+  "evaluation_status": "Previously reviewed retrospective windows; not independent confirmation",
+  "test_answers_used": false,
+  "maximum_new_model_states": 5,
+  "full_train_preprocessing_vocabulary": "Target-free compatibility vocabulary, as in V8",
+  "forecast_simulation": "One stable ID-hash delay from 1 to 8 per training row",
+  "optimistic_bound": "Sum(min(baseline absolute error, maximum allowed delta)) / all rows; not an attainable score estimate"
+}

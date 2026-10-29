@@ -1,0 +1,172 @@
+{
+  "system": "Fixed two-branch ensemble",
+  "reference_branch": {
+    "model_defaults": {
+      "loss_function": "MAE",
+      "eval_metric": "MAE",
+      "depth": 9,
+      "learning_rate": 0.04,
+      "l2_leaf_reg": 8,
+      "random_seed": 42,
+      "allow_writing_files": false,
+      "verbose": 200
+    },
+    "components": {
+      "structural_total": {
+        "trees": 2994,
+        "features": 95,
+        "params": {}
+      },
+      "anchored_total": {
+        "trees": 3500,
+        "features": 110,
+        "params": {
+          "learning_rate": 0.035,
+          "l2_leaf_reg": 10
+        }
+      },
+      "recent_total": {
+        "trees": 2400,
+        "features": 103,
+        "params": {}
+      },
+      "unit_price": {
+        "trees": 1948,
+        "features": 95,
+        "params": {}
+      },
+      "comparable_total": {
+        "trees": 3493,
+        "features": 110,
+        "params": {}
+      },
+      "prefix_total": {
+        "trees": 3491,
+        "features": 115,
+        "params": {}
+      },
+      "fine_location_total": {
+        "trees": 2400,
+        "features": 118,
+        "params": {}
+      }
+    },
+    "historical_cutoff": 187,
+    "historical_horizon": 12,
+    "historical_scale": 1.0089489408031578,
+    "production_scale": 1.0297437329436667,
+    "early_tree_budget": 851,
+    "uplift_guard": 1.1,
+    "unit_ramp": [
+      300,
+      600,
+      1
+    ],
+    "fine_weight": 0.25,
+    "comparable_weight": 0.25,
+    "calibration": {
+      "shrink": 200,
+      "min_projects": 5,
+      "weight": 0.5,
+      "cap": 250000
+    },
+    "calibration_fit_horizon": [
+      1,
+      7
+    ],
+    "calibration_dev_horizon": [
+      8,
+      10
+    ],
+    "calibration_check_horizon": [
+      11,
+      12
+    ]
+  },
+  "comparison_branch": {
+    "history_trees": 2499,
+    "unit_trees": 2469,
+    "matched_trees": 2500,
+    "lgbm_trees": 7949,
+    "maximum_unit_weight": 1.0,
+    "matched_weight": 0.1,
+    "lgbm_maximum_weight": 0.5,
+    "lgbm_half_life_months": 6.0
+  },
+  "branch_weight": 0.5,
+  "missing_reference_fallback": "100% reference branch for ordinary rows missing all three comparison references",
+  "training_signature": "4cf6f8c740c4ac8a686822e02c4248e12af6b35f00eda1d92d475a0030aac609",
+  "test_valid_used_for_fit": false,
+  "validation_model_cutoff_month": 187,
+  "calibration_last_label_month": 194,
+  "development_months": [
+    195,
+    197
+  ],
+  "check_months": [
+    198,
+    199
+  ],
+  "original_schema_columns": [
+    "鄉鎮市區",
+    "交易標的",
+    "土地位置建物門牌",
+    "土地移轉總面積平方公尺",
+    "都市土地使用分區",
+    "非都市土地使用分區",
+    "非都市土地使用編定",
+    "交易筆棟數",
+    "移轉層次",
+    "總樓層數",
+    "建物型態",
+    "主要用途",
+    "主要建材",
+    "建物移轉總面積平方公尺",
+    "建物現況格局-房",
+    "建物現況格局-廳",
+    "建物現況格局-衛",
+    "建物現況格局-隔間",
+    "車位類別",
+    "車位移轉總面積平方公尺",
+    "備註",
+    "建案名稱",
+    "棟及號",
+    "解約情形",
+    "交易年",
+    "交易月",
+    "交易時間序號",
+    "交易土地筆數",
+    "交易建物筆數",
+    "交易車位筆數",
+    "移轉樓層",
+    "整棟交易",
+    "多樓層交易",
+    "相對樓層",
+    "土地使用類型",
+    "縣市",
+    "行政區",
+    "有備註",
+    "特殊關係交易",
+    "含裝潢家具家電資訊",
+    "毛胚屋",
+    "雨遮不計價",
+    "持分交易",
+    "含增建",
+    "預售資訊",
+    "道路地段",
+    "地址基地",
+    "建案行政區",
+    "棟別",
+    "建物筆數面積衝突",
+    "扣車位建物面積",
+    "車位面積占比",
+    "土地建物面積比",
+    "每筆建物面積",
+    "每車位面積",
+    "每房建物面積",
+    "行政區_型態",
+    "道路_型態",
+    "建案_棟別"
+  ],
+  "reproduction_note": "The comparison branch preserves its originally evaluated area-variable compatibility mapping"
+}

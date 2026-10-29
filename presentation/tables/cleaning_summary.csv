@@ -1,0 +1,4 @@
+﻿Dataset,Raw_Rows,Processed_Rows,Removed_Rows,Processed_Columns,Missing_Transaction_Month,Missing_Project_Name
+Train,455787,455782,5,54,8,51124
+Valid,11994,11994,0,54,0,1340
+Test,47073,47073,0,53,0,0
